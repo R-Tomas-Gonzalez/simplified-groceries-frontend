@@ -1,23 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello World, welcome to Simplified Groceries</h1>
+      <p>
+        This app will be help grocery shoppers find the groceries they need at the cheapest price 
+        and nearest location to them. We hope you will enjoy this invaluable resource.
+      </p>
     </div>
   );
 }
